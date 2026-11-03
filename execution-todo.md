@@ -14,6 +14,20 @@ This checklist tracks the next implementation cycle. The upstream [TODO.md](TODO
 - [x] Completed and verified
 - [!] Blocked or requires a decision
 
+## Parallel agent dispatch — 2026-11-03
+
+The repository has GitHub Issues disabled, so the specialist tasks are tracked as isolated draft pull requests. A `@copilot` dispatch comment targeting each custom profile has been posted. **Dispatch requests are sent; Copilot acceptance/activity has not yet been observed in the PR conversations at the time of this update.**
+
+| Workstream | Custom agent | Branch | Draft PR | Dispatch status |
+| --- | --- | --- | --- | --- |
+| W1 — WGPU 3D correctness | `wgpu-rendering-specialist` | `agents/wgpu-3d-rendering` | [#1](https://github.com/rakmahefa/dust/pull/1) | Comment sent; awaiting agent activity |
+| W2 — Emulator QA/tests | `emulator-qa-specialist` | `agents/emulator-qa` | [#2](https://github.com/rakmahefa/dust/pull/2) | Comment sent; awaiting agent activity |
+| W3 — CI/build reproducibility | `ci-build-specialist` | `agents/ci-build` | [#3](https://github.com/rakmahefa/dust/pull/3) | Comment sent; awaiting agent activity |
+| W4 — Native profiling | `performance-engineering-specialist` | `agents/native-performance` | [#4](https://github.com/rakmahefa/dust/pull/4) | Comment sent; awaiting agent activity |
+| W5 — WebAssembly frontend | `wasm-frontend-specialist` | `agents/wasm-frontend` | [#5](https://github.com/rakmahefa/dust/pull/5) | Comment sent; awaiting agent activity |
+
+Each PR contains a scoped `.agent-tasks/*.md` handoff. Keep all five PRs in draft until a human has reviewed implementation, tests and reported limitations. Do not merge agent output automatically.
+
 ## Phase 0 — WGPU 3D correctness gate
 
 ### W1 — WGPU rendering specialist
