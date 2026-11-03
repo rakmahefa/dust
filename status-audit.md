@@ -7,8 +7,6 @@
 
 ## Overall assessment
 
-<| this marker intentionally remains plain markdown text |>
-
 The repository contains a substantial Nintendo DS emulator implementation with native and WebAssembly frontends, multiple rendering backends and release workflows. The source tree is structured and the fork is synchronized with upstream.
 
 The main status concern is **verification and completion**, not a confirmed global build failure: the visible revision is from 2025-12-17, no workflow run was exposed by the Actions listing at audit time, no explicit test stage exists in the workflows, the JIT implementation is a TODO stub, and the threaded WGPU 3D submission call is commented out.
